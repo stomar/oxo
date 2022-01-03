@@ -15,8 +15,9 @@ module OXO
     end
 
     def place(color, row, col)
-      return  unless  legal_move?(row, col)
-      @board[row-1][col-1] = color
+      return  unless legal_move?(row, col)
+
+      @board[row - 1][col - 1] = color
     end
 
     def legal_moves
@@ -68,7 +69,7 @@ module OXO
     def piece_at(row, col)
       return  unless on_board?(row, col)
 
-      @board[row-1][col-1]
+      @board[row - 1][col - 1]
     end
   end
 end
