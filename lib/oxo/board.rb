@@ -45,7 +45,7 @@ module OXO
     end
 
     def to_s
-      output = "\n"
+      output = "\n".dup
       hline = "+---" * @cols << "+\n"
 
       characters = @board.map {|row| row.map {|pos| pos.to_s.ljust(1) } }
