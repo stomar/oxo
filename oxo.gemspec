@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
 
   s.license = "GPL-3.0"
 
-  s.required_ruby_version = ">= 2.0.0"
+  s.required_ruby_version = ">= 2.3.0"
 
   s.add_development_dependency "minitest", "~> 5.8"
   s.add_development_dependency "rake", "~> 13.0"
