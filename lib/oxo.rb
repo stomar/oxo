@@ -46,7 +46,7 @@ module OXO
     def self.parse!(argv)
 
       options = {
-        :delay => 0
+        delay: 0
       }
 
       opt_parser = OptionParser.new do |opt|
@@ -91,7 +91,7 @@ module OXO
 
   class Application
 
-    ERRORCODE = {:general => 1, :usage => 2}
+    ERRORCODE = { general: 1, usage: 2 }
 
     def initialize
       begin

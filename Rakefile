@@ -6,7 +6,7 @@ def gemspec_file
 end
 
 
-task :default => [:test]
+task default: [:test]
 
 Rake::TestTask.new do |t|
   t.pattern = "test/**/test_*.rb"
