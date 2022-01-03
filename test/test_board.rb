@@ -9,7 +9,7 @@ describe OXO::Board do
   end
 
   it "should have the correct size" do
-    @board.rows.must_equal 3
-    @board.cols.must_equal 3
+    _(@board.rows).must_equal 3
+    _(@board.cols).must_equal 3
   end
 end
