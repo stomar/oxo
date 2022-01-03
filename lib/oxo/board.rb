@@ -56,7 +56,7 @@ module OXO
         output << hline
       end
 
-      output + "\n"
+      output << "\n"
     end
 
     private
