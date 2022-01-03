@@ -31,6 +31,7 @@ Gem::Specification.new do |s|
   s.files = %w[
       oxo.gemspec
       README.md
+      Gemfile
       Rakefile
     ] +
     Dir.glob("{bin,lib,test}/**/*")
