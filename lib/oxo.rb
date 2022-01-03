@@ -93,7 +93,7 @@ module OXO
 
   class Application
 
-    ERRORCODE = { general: 1, usage: 2 }
+    ERRORCODE = { general: 1, usage: 2 }.freeze
 
     def initialize
       begin
