@@ -28,12 +28,12 @@ module OXO
 
   PROGNAME  = "oxo"
 
-  COPYRIGHT = <<-copyright.gsub(/^ +/, "")
+  COPYRIGHT = <<~CONTENT
     Copyright (C) 2016-2022 Marcus Stollsteimer.
     License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
     This is free software: you are free to change and redistribute it.
     There is NO WARRANTY, to the extent permitted by law.
-  copyright
+  CONTENT
 
 
   class Optionparser
@@ -53,11 +53,12 @@ module OXO
 
       opt_parser = OptionParser.new do |opt|
         opt.banner = "Usage: #{PROGNAME} [options]"
-        opt.separator %q{
+        opt.separator <<~CONTENT
+
           oxo is a command line Tic-tac-toe game.
 
           Options:
-        }.gsub(/^ +/, "")
+        CONTENT
 
         # process --version and --help first,
         # exit successfully (GNU Coding Standards)
