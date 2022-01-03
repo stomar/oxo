@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version = ">= 2.0.0"
 
   s.add_development_dependency "minitest", "~> 5.8"
-  s.add_development_dependency "rake", "~> 11.1"
+  s.add_development_dependency "rake", "~> 13.0"
 
   s.executables = ["oxo"]
   s.bindir = "bin"
