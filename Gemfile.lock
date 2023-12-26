@@ -13,9 +13,9 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  minitest (~> 5.8)
+  minitest
   oxo!
-  rake (~> 13.0)
+  rake
 
 BUNDLED WITH
    2.4.10
