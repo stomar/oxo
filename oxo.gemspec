@@ -25,7 +25,8 @@ Gem::Specification.new do |s|
 
   s.require_paths = ["lib"]
 
-  s.files = %w[
+  s.files =
+    %w[
       oxo.gemspec
       README.md
       Gemfile

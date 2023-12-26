@@ -46,7 +46,6 @@ module OXO
     #
     # Returns a hash containing the option parameters.
     def self.parse!(argv)
-
       options = {
         delay: 0
       }
@@ -90,7 +89,6 @@ module OXO
       options
     end
   end
-
 
   class Application
 
