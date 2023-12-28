@@ -23,7 +23,7 @@ Use `gem install oxo` to install from RubyGems.org.
 
 ## Requirements
 
-- [Ruby][ruby] 2.3.0 or higher
+- [Ruby][ruby] 3.1 or higher
 
 ## Reporting Bugs
 
