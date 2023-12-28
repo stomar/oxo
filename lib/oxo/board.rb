@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 module OXO
+
+  # Class for the game board.
   class Board
 
     attr_accessor :rows, :cols

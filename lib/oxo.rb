@@ -36,6 +36,8 @@ module OXO
   CONTENT
 
 
+  # Parser for the command line options.
+  # The class method parse! does the job.
   class Optionparser
 
     # Parses the command line options from +argv+.
@@ -90,6 +92,7 @@ module OXO
     end
   end
 
+  # The Application class.
   class Application
 
     ERRORCODE = { general: 1, usage: 2 }.freeze

@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 module OXO
+
+  # Class for a computer player.
   class Computer
 
     attr_reader :color

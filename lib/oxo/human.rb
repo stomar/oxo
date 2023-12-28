@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 module OXO
+
+  # Class for a human player.
   class Human
 
     attr_reader :color
