@@ -131,7 +131,7 @@ module OXO
         board.place(player.color, move[0], move[1])
 
         puts board
-        puts "Move of #{player.name} was: #{(move[0] - 1) * 3 + move[1]}"
+        puts "Move of #{player.name} was: #{((move[0] - 1) * 3) + move[1]}"
 
         if board.win?(player.color)
           puts "#{player.name} wins!"

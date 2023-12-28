@@ -38,8 +38,8 @@ module OXO
         :quit
       when /\d/
         number = answer.to_i
-        row = (number - 1) / board.rows + 1
-        col = (number - 1) % board.cols + 1
+        row = ((number - 1) / board.rows) + 1
+        col = ((number - 1) % board.cols) + 1
 
         board.legal_move?(row, col) ? [row, col] : :illegal
       else
