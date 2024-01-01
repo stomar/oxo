@@ -20,7 +20,7 @@ require "oxo/human"
 #
 # == Author
 #
-# Copyright (C) 2016-2022 Marcus Stollsteimer
+# Copyright (C) 2016-2024 Marcus Stollsteimer
 #
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 #
@@ -29,7 +29,7 @@ module OXO
   PROGNAME  = "oxo"
 
   COPYRIGHT = <<~TEXT
-    Copyright (C) 2016-2022 Marcus Stollsteimer.
+    Copyright (C) 2016-2024 Marcus Stollsteimer.
     License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
     This is free software: you are free to change and redistribute it.
     There is NO WARRANTY, to the extent permitted by law.
